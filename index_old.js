@@ -140,7 +140,7 @@ client.on('group_join', async (notification) => {
     console.log('join', notification);
     const botno = notification.chatId.split('@')[0];
     let number = await notification.id.remote;
-    client.sendMessage(number, `Bienvenido a 🌀𝑬.𝑯.𝑫. 𝑵𝒐𝒆𝒍𝒍𝒆 𝑺𝒊𝒍𝒗𝒂🌀 donde adoramos a nuestra diosa Noelle pero casi poco se habla de ella jaja comparte y dialoga lo que desees, esperamos que sea de su agrado, porfavor lea las reglas del grupo 💙.`);
+    client.sendMessage(number, `Bienvenido a 🌀𝑬.𝑯.𝑫. 𝑵𝒐𝒆𝒍𝒍𝒆 𝑺𝒊𝒍𝒗𝒂🌀 donde adoramos a nuestra diosa Noelle y compartimos gustos por otras waifus 🧐 esperamos que sea de su agrado, porfavor lea las reglas del grupo 💙.`);
   
     const chats = await client.getChats();
 
