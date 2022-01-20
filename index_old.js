@@ -355,11 +355,11 @@ else if (msg.body == "!menu") {
 
 			  ️*List Menu*
 			
-➡️ !admin = Menu Khusus Admin Grup🏅
-➡️ !menu1 = Fun Menu 🌞
-➡️ !menu2 = Downloader Menu🎞
-➡️ !menu3 = Horoscope Menu 🎇
-➡️ !menu4 = Edukasi Menu 📕 
+➡️ !admin = Menú Admin Grupo🏅
+➡️ !menu1 = Menú Divertido 🌞
+➡️ !menu2 = Menú del descargador🎞
+➡️ !menu3 = Menú del Horóscopo 🎇
+➡️ !menu4 = Menú Educación 📕 
 
 
 
@@ -371,12 +371,12 @@ else if (msg.body == "!menu") {
 
 else if (msg.body == "!admin") {
  client.sendMessage(msg.from,  `
- *!subject* = Ganti nama grup.
- *!kick* = Kick member grup.
- *!promote* = Promote admin grup.
- *!demote* = Menurunkan admin group.
- *!add* = Menambah member group.
- *!deskripsi* = Ganti deskripsi grup.
+ *!subject* = Renombrar grupo.
+ *!kick* = Expulsar a los miembros del grupo.
+ *!promote* = Promover administrador de grupo.
+ *!demote* = Degradar grupo de administradores.
+ *!add* = Agregar miembros del grupo.
+ *!deskripsi* = Cambiar la descripción del grupo.
  `);
  }
  
@@ -385,67 +385,67 @@ else if (msg.body == "!admin") {
  else if (msg.body == "!menu1") {
  client.sendMessage(msg.from,  `
  
-   *Welcome To Fun Menu*
+   *Bienvenido al menú divertido*
    
-*!randomanime* = untuk melihat gambar anime secara random
+*!randomanime* = Para ver imágenes de anime al azar
 
-*!animehd* = untuk melihat gambar anime HD secara random v2
+*!animehd* = Para ver imágenes aleatorias de anime HD v2
 
-*!quotes* : Melihat quotes dari tokoh terkenal
+*!quotes* : Ver citas de personajes famosos
 
-*!pantun* : Melihat gombalan pantun pakboy
+*!pantun* : Ver packs de rimas Pakboy
 
-*!fakta* : Melihat fakta unik secara random
+*!fakta* : Ver hechos únicos aleatorios
 
-*!play nama lagu*
-contoh: *!play whatever it takes*
+*! play nama lagu*
+Ejemplo: *!toca lo que sea necesario*
 
-*tts teks* : mengubah teks menjadi suara
+*tts teks* : Convierte el texto en sonido
 
-*!wait* : Menampilkan informasi anime dengan mengirim gambar dengan caption !wait
+*!wait* : muestra información del anime enviando una imagen con el título !wait
 
-*!ptl1* : Menampilkan gambar gambar cewek cantik 🤩
+*!ptl1* : Muestra fotos de chicas guapas 🤩
 
-*!ptl2* : Menampilkan gambar gambar cowok ganteng 😎
+*!ptl2* : Muestra fotos de chicos guapos 😎
 
-*!chord nama lagu* : Menampilkan Chord Gitar
+*!chord nama lagu* : Muestra el acorde de guitarra
 
-*!lirik nama lagu* : Menampilkan lirik lagu
-contoh: *!lirik lemon tree*
+*!lirik nama lagu* : Muestra las letras de las canciones.
+ejemplo: *!letra de limonero*
 
-*!searchimage kata kunci* : Cari gambar berdasarkan kata
-contoh ( _*!searchimage kata bijak*_ )
+*!searchimage kata kunci* : Buscar imágenes por palabra
+ejemplo ( _*!buscarimagen palabras sabias*_ )
 `);
  }
 else if (msg.body == "!menu2") {
  client.sendMessage(msg.from,  `
  
-   *Welcome To Downloader Menu*
+   *Bienvenido al menú del descargador*
    
- *!yt url* : Mendownload video dari youtube
+ *!yt url* : Descargar videos de youtube
 contoh : !yt https://youtu.be/K9jR4hSCbG4
 
-*!ytmp3 url* : Mendownload mp3 dari youtube
+*!ytmp3 url* : Descargar mp3 de youtube
 contoh : !ytmp3 https://youtu.be/xUVz4nRmxn4
 
-*!fb url* : Mendownload video dari facebook
+*!fb url* : Descargar videos de facebook
 contoh : !fb url
 
-*!ig url* : Mendownload media foto/video dari instagram
+*!ig url* : Descarga de medios de foto/video de Instagram
 contoh : !ig url
 
-*!pin url* : Mendownload video dari pinterest
+*!pin url* : Descargar videos de pinterest
 contoh : !pin url
 
 `);
 }
 else if (msg.body == "!menu3") {
 	client.sendMessage (msg.from, `
-*!nama* : Melihat arti dari nama kamu
- contoh : !nama Bondan
+*!name* : Vea el significado de su nombre
+ ejemplo : !name Alex
 
-*!pasangan* : Check kecocokan jodoh
- contoh : !pasangan Dimas & Dinda
+*!pareja* : Crear Ship
+ ejemplo : !Rasec & Dledig
 `);
 }	
 // Download Feature
