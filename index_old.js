@@ -140,7 +140,7 @@ client.on('group_join', async (notification) => {
     console.log('join', notification);
     const botno = notification.chatId.split('@')[0];
     let number = await notification.id.remote;
-    client.sendMessage(number, `Hai perkenalkan aku Inside Bot, selamat datang di group ini`);
+    client.sendMessage(number, `Bienvenido a 🌀𝑬.𝑯.𝑫. 𝑵𝒐𝒆𝒍𝒍𝒆 𝑺𝒊𝒍𝒗𝒂🌀 donde adoramos a nuestra diosa Noelle pero casi poco se habla de ella jaja comparte y dialoga lo que desees, esperamos que sea de su agrado, porfavor lea las reglas del grupo 💙.`);
   
     const chats = await client.getChats();
 
@@ -307,7 +307,7 @@ const botTol = () => {
                 let title = msg.body.slice(5)
                 if (title.indexOf('62') == -1) {
                     chat.addParticipants([`${title.replace('0', '62')}@c.us`])
-                    msg.reply(`[:] Selamat datang @${title}! jangan lupa baca Deskripsi group yah 😎👊🏻`)
+                    msg.reply(`[:] Bienvenido @${title}! No olvides leer la descripción del grupo, ¿De acuerdo? 😎👊🏻`)
                 } else {
                     msg.reply('[:] Format nomor harus 0821xxxxxx')
                 }
@@ -349,7 +349,7 @@ const botTol = () => {
 
 else if (msg.body == "!menu") {
  client.sendMessage(msg.from,  `
-    *SELAMAT DATANG 😎*
+    *BIENVENIDO 💙*
 
 
 
