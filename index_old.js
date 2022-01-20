@@ -179,7 +179,7 @@ client.on('group_leave', async (notification) => {
     console.log('leave', notification);
     const botno = notification.chatId.split('@')[0];
     let number = await notification.id.remote;
-    client.sendMessage(number, `Selamat tinggal kawan`);
+    client.sendMessage(number, `Adiós plebeyo, ojala cuando mueras de verdad reencarnes en un isekai 🌍😎`);
   
     const chats = await client.getChats();
     for (i in chats) {
